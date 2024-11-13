@@ -1,0 +1,40 @@
+.wrapped {
+    border: 5px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    border: 5px solid salmon;
+    background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35%;
+}
+
+.left-header {
+    border: 5px solid orange;
+    display: flex;
+    align-items: center;
+    /* margin-right: 45px; */
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-header {
+    border: 5px solid pink;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 21px;
+    padding: 0;
+}
