@@ -19,7 +19,6 @@
     border: 5px solid orange;
     display: flex;
     align-items: center;
-    /* margin-right: 45px; */
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -38,3 +37,57 @@ ul {
     gap: 21px;
     padding: 0;
 }
+
+.first-content {
+    border: 5px solid red;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-content-left {
+    border: 5px solid rgb(43, 130, 68);
+    font-size: 18px;
+    color: #E5E7EB;
+    display: inline-block;
+    /* flex-direction: column; */
+}
+
+.first-text-one {
+    border: 5px solid pink;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    display: flex;
+    max-width: 300px;
+}
+
+.fist-text-two {
+    border: 5PX solid blueviolet;
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 420px;
+}
+
+.first-content-right {
+    border: 5px solid blue;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;   
+}
+
+.sign-up {
+    border: 5px solid skyblue ;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 9px;
+    padding: 7px 28px;
+}
+
+/*
+ To do list
+
+    mettre à nvieau le header et la partie 1
+    
+*/
