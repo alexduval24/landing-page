@@ -49,8 +49,7 @@ ul {
     border: 5px solid rgb(43, 130, 68);
     font-size: 18px;
     color: #E5E7EB;
-    display: inline-block;
-    /* flex-direction: column; */
+    margin-left: -154px;
 }
 
 .first-text-one {
@@ -74,7 +73,8 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    align-items: center;   
+    align-items: center;
+    padding: 10px 118px;
 }
 
 .sign-up {
@@ -85,9 +85,68 @@ ul {
     padding: 7px 28px;
 }
 
-/*
- To do list
+.second-content {
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: column;
+}
 
-    mettre à nvieau le header et la partie 1
-    
-*/
+.informations {
+    border: 5px solid orange;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 20px;
+}
+
+.around-contener {
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+}
+
+.card-contener {
+    border: 5px solid rgb(169, 124, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card-contener-one {
+    border: 5px solid #3882F6;
+    border-radius: 11px;
+    padding: 48px 23px;
+    width: 50px;
+}
+
+.card-contener-two {
+    border: 5px solid #3882F6;
+    border-radius: 11px;
+    padding: 48px 23px;
+    width: 50px;
+}
+
+.card-contener-three {
+    border: 5px solid #3882F6;
+    border-radius: 11px;
+    padding: 48px 23px;
+    width: 50px;
+}
+
+.card-contener-four {
+    border: 5px solid #3882F6;
+    border-radius: 11px;
+    padding: 48px 23px;
+    width: 50px;
+}
+
+.card-contener-description {
+    border: 5px solid pink;
+    width: 130px;
+    text-align: center;
+}
