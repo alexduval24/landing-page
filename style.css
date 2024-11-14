@@ -121,32 +121,62 @@ ul {
     border: 5px solid #3882F6;
     border-radius: 11px;
     padding: 48px 23px;
-    width: 50px;
+    width: 57px;
 }
 
 .card-contener-two {
     border: 5px solid #3882F6;
     border-radius: 11px;
     padding: 48px 23px;
-    width: 50px;
+    width: 57px;
 }
 
 .card-contener-three {
     border: 5px solid #3882F6;
     border-radius: 11px;
     padding: 48px 23px;
-    width: 50px;
+    width: 57px;
 }
 
 .card-contener-four {
     border: 5px solid #3882F6;
     border-radius: 11px;
     padding: 48px 23px;
-    width: 50px;
+    width: 57px;
 }
 
 .card-contener-description {
     border: 5px solid pink;
     width: 130px;
     text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.third-content {
+    border: 5px solid skyblue;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    border: 5px solid blueviolet;    
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin-top: 50px; 
+    width: 750px;
+}
+
+.author-quote {
+    border: 5px solid green;
+    margin-left: 604px;
+    margin-bottom: 50px;
+    color: #1f2937;
+    text-align: center;
+
 }
