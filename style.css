@@ -89,6 +89,8 @@ ul {
     border: 5px solid gray;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .informations {
@@ -178,5 +180,55 @@ ul {
     margin-bottom: 50px;
     color: #1f2937;
     text-align: center;
+}
 
+.fourth-content {
+    border: 5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-four {
+    border: 5px solid pink;
+    display: flex;
+    font-size: 18px;
+    border-radius: 11px;
+    background-color: #3882F6;
+    width: 900px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.contener-publicity {
+    border: 5px solid salmon;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 550px;
+}
+
+.text-publicity-one {
+    border: 5px solid brown;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.text-publicity-two {
+    border: 5px solid red;
+    color: #F9FAF8;
+
+}
+
+.sign-up-two {
+    border: 2px solid #F9FAF8;
+    border-radius: 9px;
+    background-color: #3882F6;
+    color: #F9FAF8;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 95px;
 }
