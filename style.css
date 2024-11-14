@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     gap: 35%;
+    height: 8vh;
 }
 
 .left-header {
@@ -43,6 +44,7 @@ ul {
     background-color: #1f2937;
     display: flex;
     justify-content: space-evenly;
+    flex: 1;
 }
 
 .first-content-left {
@@ -91,6 +93,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    flex: 1;
 }
 
 .informations {
@@ -163,6 +166,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .quote {
@@ -187,6 +191,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 
 .content-four {
@@ -225,10 +230,22 @@ ul {
     border: 2px solid #F9FAF8;
     border-radius: 9px;
     background-color: #3882F6;
-    color: #F9FAF8;;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 30px;
     width: 95px;
+}
+
+.footer {
+    border: 5px solid black;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 8vh;
+    flex-shrink: 0;
 }
